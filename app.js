@@ -78,7 +78,7 @@ app.post('/', function(req, res){
         res.send(str);
       });
     }else{
-      let str = template({out: "http://localhost:4000/" + users[0].short});
+      let str = template({out: "http://localhost:4000/" + users[0].short, cross: users[0].count});
       res.send(str);
     }
   });

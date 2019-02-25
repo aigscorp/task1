@@ -38,7 +38,8 @@ const template = templater`
           </div>
         </div>
       </form>
-      <a href="${'out'}" style="text-decoration:none;padding-top:10px;">Short Link - ${'out'}</a>  
+      <a href="${'out'}" style="text-decoration:none;padding-top:10px;">Short Link - ${'out'}</a>
+      <p>Количество переходов по короткой ссылке ${'cross'}</p>  
       </div>
     </div>
   </div>  
